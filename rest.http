@@ -1,0 +1,28 @@
+GET http://localhost:3000/products
+
+### Creating Product
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Laptop DELL",
+    "price": 3000000
+}
+
+### Gettting a single product
+GET http://localhost:3000/products/62654a3a356f7fdf261ed329
+
+### Updating a single product
+PUT http://localhost:3000/products/626549d4a641789a7e09e708
+Content-Type: :application/json
+
+{
+    "name": "ACER PREDATOR",
+    "price": 100000
+}
+
+### Deleteing a single product
+DELETE http://localhost:3000/products/62654f8f3ca93df2787db7a3
+
+###
+GET http://localhost:3000/
